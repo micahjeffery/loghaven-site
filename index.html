@@ -44,9 +44,13 @@
       <div class="label-chip"><span class="material-symbols-rounded">android</span>Loghaven · 1.0.0</div>
       <h1>Track your work. <span>Keep your data.</span></h1>
       <p class="hero-lede">Track jobs, tasks, breaks, time, and earnings offline.</p>
-      <div class="hero-actions">
-        <a class="button button-filled" href="https://github.com/micahjeffery/loghaven-releases/releases" rel="noopener noreferrer"><span class="material-symbols-rounded">download</span>Download from GitHub</a>
-        <span class="button button-disabled"><span class="material-symbols-rounded">shop</span>Google Play coming soon</span>
+      <div class="hero-actions hero-download-actions">
+        <a class="store-badge-link" href="/play/" aria-label="Get Loghaven on Google Play through the closed test">
+          <img src="/assets/brands/google-play-badge.png" width="646" height="250" alt="Get it on Google Play">
+        </a>
+        <a class="store-badge-link" href="https://github.com/micahjeffery/loghaven-releases/releases/latest" rel="noopener noreferrer" aria-label="Download Loghaven from GitHub Releases">
+          <img src="/assets/brands/github-badge.png" width="640" height="248" alt="Get it on GitHub">
+        </a>
       </div>
       <div class="trust-row" aria-label="Privacy highlights">
         <span class="trust-chip"><span class="material-symbols-rounded icon-filled">check_circle</span>No account</span>
@@ -171,15 +175,36 @@
 
   <section class="section alt" id="download" data-section-title="Download">
     <div class="section-inner">
-      <div class="download-panel">
-        <div>
-          <h2>Download Loghaven.</h2>
-          <p>Get the current Android release from GitHub. A Google Play release is coming later.</p>
-        </div>
-        <div class="download-actions">
-          <a class="button button-filled" href="https://github.com/micahjeffery/loghaven-releases/releases" rel="noopener noreferrer"><span class="material-symbols-rounded">download</span>GitHub Releases</a>
-          <span class="button button-disabled"><span class="material-symbols-rounded">shop</span>Google Play coming soon</span>
-        </div>
+      <div class="section-heading">
+        <h2>Download Loghaven.</h2>
+      </div>
+      <div class="download-grid">
+        <article class="download-card">
+          <div class="download-card-head">
+            <div class="download-card-icon material-symbols-rounded" aria-hidden="true">shop</div>
+            <span class="status-chip">Closed test</span>
+          </div>
+          <h3>Google Play</h3>
+          <p>Closed testing for now. Automatic updates through Play.</p>
+          <a class="button button-filled" href="/play/">Join closed test</a>
+        </article>
+        <article class="download-card">
+          <div class="download-card-head">
+            <div class="download-card-icon material-symbols-rounded" aria-hidden="true">code</div>
+          </div>
+          <h3>GitHub</h3>
+          <p>Direct APK download. Manual updates.</p>
+          <a class="button button-outlined" href="https://github.com/micahjeffery/loghaven-releases/releases/latest" rel="noopener noreferrer">GitHub Releases</a>
+        </article>
+        <article class="download-card">
+          <div class="download-card-head">
+            <div class="download-card-icon material-symbols-rounded" aria-hidden="true">system_update_alt</div>
+          </div>
+          <h3>Obtainium</h3>
+          <p>Install and receive updates directly from GitHub releases.</p>
+          <a class="button button-outlined" href="obtainium://add/https://github.com/micahjeffery/loghaven-releases">Add to Obtainium</a>
+          <a class="download-secondary-link" href="https://github.com/ImranR98/Obtainium" rel="noopener noreferrer">Get Obtainium</a>
+        </article>
       </div>
     </div>
   </section>
